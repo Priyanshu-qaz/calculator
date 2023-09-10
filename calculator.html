@@ -1,0 +1,100 @@
+<html>
+
+<head>
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(https://e0.pxfuel.com/wallpapers/975/569/desktop-wallpaper-emily-morrigan-on-gadget-neon-nature-iphone-iphone-neon-plants.jpg);
+        }
+
+        h1 {
+
+            color: red;
+        }
+
+        #cal {
+            opacity: inherit;
+            height: 130px;
+            width: 309px;
+            font-size: 30px;
+            text-align: right;
+            color: white;
+
+
+        }
+
+        input {
+            padding: 29.6px;
+            border-radius: 18px;
+            background: transparent;
+            box-shadow: 0px 7px 15px white;
+            color: white;
+        }
+
+        .style1 {
+            width: 333px;
+            border: 5px solid white;
+
+            box-shadow: -0px -3px -15px;
+
+            background: transparent;
+        }
+
+        form {
+            margin: 11.19px;
+        }
+
+        .rk {
+            margin-left: 2px;
+        }
+
+        .lk {
+            width: 222px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="style1">
+        <form name="form3">
+            <input id="cal" type="text" name="answer" placeholder="Rishi">
+            <br><br>
+            <input style="font-size:20px" type="button" value="1" onclick="form3.answer.value +='1'">
+            <input style="font-size:20px" type="button" value="2" onclick="form3.answer.value +='2'">
+            <input style="font-size:20px" type="button" value="3" onclick="form3.answer.value +='3'">
+            <input style="font-size:20px; color: blue" type="button" value="+" onclick="form3.answer.value +='+'">
+            <br><br>
+            <input style="font-size:20px" type="button" value="4" onclick="form3.answer.value +='4'">
+            <input style="font-size:20px" type="button" value="5" onclick="form3.answer.value +='5'">
+            <input style="font-size:20px" type="button" value="6" onclick="form3.answer.value +='6'">
+            <input style="font-size:20px; color: blue" type="button" value="-" onclick="form3.answer.value +='-'">
+            <br><br>
+            <input style="font-size:20px" type="button" value="7" onclick="form3.answer.value +='7'">
+            <input style="font-size:20px" type="button" value="8" onclick="form3.answer.value +='8'">
+            <input style="font-size:20px" type="button" value="9" onclick="form3.answer.value +='9'">
+            <input style="font-size:20px; color: blue" type="button" value="*" onclick="form3.answer.value +='*'">
+            <br><br>
+            <input class="rk" style="font-size:20px" type="button" value="/" onclick="form3.answer.value +='/'">
+            <input class="rk" style="font-size:20px" type="button" value="0" onclick="form3.answer.value +='0'">
+            <input class="rk" style="font-size:20px" type="button" value="." onclick="form3.answer.value +='.'">
+            <input class="rk" style="font-size:20px; color: blue" type="button" value="="
+                onclick="form3.answer.value=eval(form3.answer.value)">
+            <br><br>
+            <input style="font-size:20px; color: blue" type="button" value="Clear" onclick="form3.answer.value = ' ' "
+                class="lk">
+
+            <input style="font-size:20px; color:blue;" type="button" value="%" onclick="form3.answer.value +='%'"
+                class="kk">
+
+
+        </form>
+    </div>
+</body>
+
+</html>
